@@ -41,11 +41,11 @@
     "inbounds": [
     {
       "type": "tun",
-      "address": "172.19.0.1/30",
+      "inet4_address": "172.19.0.1/30",
       "mtu": 9000,
       "auto_route": true,
       "sniff": true,
-      "stack": "system",
+      "stack": "mixed",
       "platform": {
         "http_proxy": {
           "enabled": true,
